@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NFT Marketplace</title>
+<style>
+body{margin:0;font-family:'Poppins',sans-serif;background:#0b0b0b;color:#fff;display:flex;justify-content:center;align-items:center;min-height:100vh;}
+.main-card{width:90%;max-width:1100px;background:rgba(255,255,255,0.03);border-radius:25px;padding:30px;text-align:center;}
+.wallet-btn{background:linear-gradient(135deg,#ff6a00,#ee0979);color:#fff;padding:12px 30px;border:none;border-radius:50px;cursor:pointer;font-weight:bold;margin:10px;}
+.wallet-btn:hover{transform:scale(1.05);}
+.marketplace{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:20px;margin-top:30px;}
+.nft-card{background:rgba(255,255,255,0.05);border-radius:15px;padding:15px;backdrop-filter:blur(10px);}
+.nft-card img{width:100%;height:180px;object-fit:cover;border-radius:12px;}
+.nft-card h4{margin:10px 0 5px 0;color:#ffb347;}
+.nft-card p{margin:0;color:#fff;opacity:0.8;}
+</style>
+</head>
+<body>
+<div class="main-card">
+  <h1>NFT Marketplace</h1>
+  <button class="wallet-btn" id="connectBtn">Cüzdanı qoş</button>
+  <button class="wallet-btn" id="disconnectBtn" style="display:none;">Bağlantını kəs</button>
+  <div id="addr" style="margin-top:10px;opacity:0.8;"></div>
+  <div class="marketplace" id="marketplace"></div>
+</div>
+
+<script type="module" src="/main.js"></script>
+</body>
+</html>
