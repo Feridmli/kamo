@@ -2,7 +2,7 @@ import { ethers } from "ethers";
 import WalletConnectProvider from "@walletconnect/web3-provider";
 import { Seaport } from "@opensea/seaport-js";
 
-const BACKEND_URL = "https://sənin-app.onrender.com"; // Render URL ilə əvəz et
+const BACKEND_URL = "https://kamo-3exu.onrender.com"; // Render URL ilə əvəz et
 const PROXY_CONTRACT_ADDRESS = "0x9656448941C76B79A39BC4ad68f6fb9F01181EC7";
 const NFT_CONTRACT_ADDRESS = "0x54a88333F6e7540eA982261301309048aC431eD5";
 const APECHAIN_ID = 33139;
